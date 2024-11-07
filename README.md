@@ -54,6 +54,7 @@ The script will attempt to find the admin panel by checking each path in the wor
 
 Feel free to fork the repository and submit issues or pull requests to contribute to the project.
 
-“Developer Information --------------------- * **Author**: [Sumitshah00](https://github.com/Sumitshah00) * **Instagram**: [@byteassassins](https://www.instagram.com/byteassassins/)”
+“Developer Information --------------------- * **Author**: [Sumitshah00](https://github.com/Sumitshah00) * 
+**Instagram**: [@byteassassins](https://www.instagram.com/byteassassins/)”
 
 
