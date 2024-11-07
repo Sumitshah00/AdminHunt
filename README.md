@@ -34,7 +34,7 @@ Clone the Repository:
 
 # Example Output
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/07b19c06-ee2a-4d6d-b525-341c8764d675)
 
 
 # Enter the Target URL:
