@@ -13,6 +13,7 @@ webadmin/
 adminarea/
 bb-admin/
 adminLogin/
+cpanel/
 admin_area/
 panel-administracion/
 instadmin/
