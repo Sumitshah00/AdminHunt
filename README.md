@@ -1,62 +1,98 @@
-# AdminHunt
+<p align="center">
+  <img src="https://github.com/Sumitshah00.png" width="150" height="150" style="border-radius: 50%;" alt="Profile Picture"/>
+</p>
+# ![HackSageX Admin Finder](https://github.com/byteassassins/hacksagex_admin_finder/assets/banner.png)
 
-AdminHunt is a Python script that automates the search for a website's admin panel by iterating through potential paths specified in a wordlist. It rotates IP addresses, handles CAPTCHA challenges, and randomizes user-agents to minimize detection, making it a valuable tool for penetration testers and ethical hackers.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Sumitshah00/AdminHunt?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/forks/Sumitshah00/AdminHunt?style=for-the-badge" alt="Forks">
+  <img src="https://img.shields.io/github/license/Sumitshah00/AdminHunt?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/issues/Sumitshah00/AdminHunt?style=for-the-badge" alt="Issues">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=Sumitshah00&color=blue&style=flat" alt="Profile Views">
+</p>
 
-## Features
+# HackSageX Admin Finder 🚀
 
-- **Banner Animation**: Displays an ASCII banner on startup for a dynamic look.
-- **Wordlist Options**: Select from a default wordlist or specify a custom one for flexibility in scanning.
-- **User-Agent Randomization**: Avoids detection by using random User-Agent headers.
-- **IP Rotation**: Changes IP address after each request to evade rate limits.
-- **CAPTCHA Handling**: Opens the browser for manual CAPTCHA solving if a 403 Forbidden error is encountered.
-- **Detailed Status Feedback**: Indicates the HTTP status for each URL checked and identifies valid admin pages.
-- **Error Detection**: Detects common error indicators like "404 Not Found" or "Error" pages.
+HackSageX Admin Finder is a powerful tool designed to discover admin panels on a target website by brute-forcing directories and files specified in a wordlist. It supports multithreading, Tor IP rotation, and CAPTCHA handling for efficient scanning.
 
-## Requirements
+## ✨ Features
+✅ Multithreaded scanning for fast results  
+✅ Supports Tor for anonymity and IP rotation  
+✅ CAPTCHA handling for restricted admin panels  
+✅ Logs results for further analysis  
+✅ Customizable delay and timeout settings  
+✅ Randomized User-Agents to evade detection  
 
+---
+
+## 🛠️ Installation
+
+### Prerequisites
+Ensure you have the following installed on your system:
 - Python 3.x
-- Required packages:
-  - `requests`
-  - `colorama`
+- Tor (for IP rotation)
+- Required Python libraries:
+  ```sh
+  pip install requests colorama tqdm logging argparse
+  ```
 
-# Install the necessary packages by running:
+### Cloning the Repository
+```sh
+git clone https://github.com/Sumitshah00/AdminHunt.git
+cd AdminHunt
+```
 
-```pip install requests colorama```
+---
 
-# How to Use
-Clone the Repository:
-```git clone https://github.com/Sumitshah00/AdminHunt.git```
-```cd AdminHunt```
+## 🚀 Usage
+### Basic Command
+```sh
+python hacksagex_admin_finder.py -u <target_url> -w <wordlist.txt>
+```
 
-# Run the Script:
+### Options
+| Option       | Description                                  |
+|-------------|------------------------------------------|
+| `-u, --url` | Target website URL to scan              |
+| `-w, --wordlist` | Path to wordlist file containing admin panel paths |
+| `-t, --threads` | Number of concurrent threads (default: 10) |
+| `-d, --delay` | Delay between requests (default: 1s) |
+| `--tor` | Enable Tor for anonymity |
 
-```python main.py```
+### Example
+```sh
+python hacksagex_admin_finder.py -u https://example.com -w admin_wordlist.txt -t 20 --tor
+```
 
-# Example Output
+---
 
-![image](https://github.com/user-attachments/assets/07b19c06-ee2a-4d6d-b525-341c8764d675)
+## 🥷 Tor Configuration (Optional)
+To use Tor, ensure it is installed and running:
+- Start Tor:
+  ```sh
+  tor
+  ```
+- Use `--tor` in the command to enable Tor IP rotation.
 
+---
 
-# Enter the Target URL:
+## 🐜 Logging
+All scan results are saved in `hacksagex_admin_finder.log` for future reference.
 
-When prompted, input the base URL of the target website, e.g., http://example.com.
+---
 
-# Select the Wordlist:
+## ⚠️ Disclaimer
+> **This tool is intended for educational and authorized penetration testing purposes only.** Use it responsibly and only on systems you have permission to test.
 
-Option 1: Use the default wordlist.txt included in the directory.
-Option 2: Provide a custom wordlist file path for scanning specific paths.
+---
 
-# View Results: 
+## 🧑‍💻 Developer
+Developed by [HackSageX](https://github.com/Sumitshah00). If you find this tool useful, consider giving it a ⭐!
+             [HackSageX](https://instagram.com/hacksagex). you can follow me on my instagram
+<p align="center">
+  <img src="https://github.com/byteassassins/hacksagex_admin_finder/assets/footer.png" alt="Footer" width="600">
+</p>
 
-The script will attempt to find the admin panel by checking each path in the wordlist, reporting any accessible pages with HTTP status codes.
-
-# Contributing
-
-Feel free to fork the repository and submit issues or pull requests to contribute to the project.
-
-“Developer Information --------------------- * **Author**: [Sumitshah00](https://github.com/Sumitshah00) 
-
-
-**Instagram**: [@byteassassins](https://www.instagram.com/byteassassins/)”
-
+---
 
