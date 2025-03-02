@@ -89,7 +89,7 @@ All scan results are saved in `hacksagex_admin_finder.log` for future reference.
 Developed by [HackSageX](https://github.com/Sumitshah00). If you find this tool useful, consider giving it a ⭐!
              [HackSageX](https://instagram.com/hacksagex). you can follow me on my instagram
 <p align="center">
-  <img src="https://github.com/byteassassins/hacksagex_admin_finder/assets/footer.png" alt="Footer" width="600">
+![image](https://github.com/user-attachments/assets/547d3fe5-aa1a-43aa-8796-94fd5146b30e)
 </p>
 
 ---
