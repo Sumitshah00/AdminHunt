@@ -1,8 +1,6 @@
 <p align="center">
   <img src="https://github.com/Sumitshah00.png" width="150" height="150" style="border-radius: 50%;" alt="Profile Picture"/>
 </p>
-# ![HackSageX Admin Finder](https://github.com/byteassassins/hacksagex_admin_finder/assets/banner.png)
-
 <p align="center">
   <img src="https://img.shields.io/github/stars/Sumitshah00/AdminHunt?style=for-the-badge" alt="Stars">
   <img src="https://img.shields.io/github/forks/Sumitshah00/AdminHunt?style=for-the-badge" alt="Forks">
