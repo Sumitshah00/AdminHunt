@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/license/Sumitshah00/AdminHunt?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/github/issues/Sumitshah00/AdminHunt?style=for-the-badge" alt="Issues">
   <br>
-  <img src="https://komarev.com/ghpvc/?username=Sumitshah00&color=blue&style=flat" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=Sumitshah00&color=blue&style=flat" alt="Repo Views">
 </p>
 
 # HackSageX Admin Finder 🚀
@@ -46,7 +46,7 @@ cd AdminHunt
 ## 🚀 Usage
 ### Basic Command
 ```sh
-python hacksagex_admin_finder.py -u <target_url> -w <wordlist.txt>
+python main.py -u <target_url> -w <wordlist.txt>
 ```
 
 ### Options
@@ -60,7 +60,7 @@ python hacksagex_admin_finder.py -u <target_url> -w <wordlist.txt>
 
 ### Example
 ```sh
-python hacksagex_admin_finder.py -u https://example.com -w admin_wordlist.txt -t 20 --tor
+python main.py -u https://example.com -w admin_wordlist.txt -t 20 --tor
 ```
 
 ---
