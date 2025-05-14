@@ -31,8 +31,10 @@ Ensure you have the following installed on your system:
 - Python 3.x
 - Tor (for IP rotation)
 - Required Python libraries:
+  
   ```sh
- pip install requests colorama tqdm argparse --break-system-packages
+  pip install requests colorama tqdm argparse --break-system-packages
+ 
   ```
 
 ### Cloning the Repository
