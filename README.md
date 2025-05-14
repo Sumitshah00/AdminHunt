@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 - Tor (for IP rotation)
 - Required Python libraries:
   ```sh
-  pip install requests colorama tqdm logging argparse
+ pip install requests colorama tqdm argparse --break-system-packages
   ```
 
 ### Cloning the Repository
